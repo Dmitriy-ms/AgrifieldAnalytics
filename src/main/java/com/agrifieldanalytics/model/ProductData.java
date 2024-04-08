@@ -37,5 +37,11 @@ public class ProductData {
     private String dateHarvest;
     @Column(name = "date_sale")
     private String dateSale;
+    @Column(name = "field_id")
+    private Long fieldId;
+    @Column(name = "culture_id")
+    private Long cultureId;
+    @Column(name = "sort_id")
+    private Long sortId;
 
 }
